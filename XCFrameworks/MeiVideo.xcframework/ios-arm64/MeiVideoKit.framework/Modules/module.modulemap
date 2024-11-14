@@ -1,0 +1,6 @@
+framework module MeiVideoKit {
+  umbrella header "MeiVideoKit.h"
+  export *
+
+  module * { export * }
+}
