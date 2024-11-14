@@ -43,7 +43,14 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MeiVideo",
-            path: "./XCFrameworks/MeiVideo.xcframework"
+            url: "https://github.com/lomaverde/VerdePackage/raw/refs/heads/main/MeiVideo.xcframework.zip"
+            checksum: ""
         ),
     ]
 )
+
+.binaryTarget(
+            name: "YourXCFrameworkTarget",
+            url: "https://github.com/yourusername/yourrepository/releases/download/1.0.0/YourXCFramework.xcframework.zip",
+            checksum: "1c409cb43bce1e2253ee19ce4bec73b9d4c5e1af54c4fe8797e9abc9f82192a9"
+        )
