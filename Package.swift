@@ -36,21 +36,16 @@ let package = Package(
     products: [
         .library(
             name: "VerdePackage",
-            targets: ["MeiVideo"]
+            targets: ["MeiVideoKit"]
         ),
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "MeiVideo",
-            url: "https://github.com/lomaverde/VerdePackage/raw/refs/heads/main/MeiVideo.xcframework.zip"
-            checksum: ""
+            name: "MeiVideoKit",
+            url: "https://github.com/lomaverde/VerdePackage/raw/refs/heads/main/MeiVideoKit.framework.zip"
+            checksum: "3f0ae9a153e41e1bd76a0c33fef56f891b713e71c28f0e676748798e44cb75c5"
         ),
     ]
 )
 
-.binaryTarget(
-            name: "YourXCFrameworkTarget",
-            url: "https://github.com/yourusername/yourrepository/releases/download/1.0.0/YourXCFramework.xcframework.zip",
-            checksum: "1c409cb43bce1e2253ee19ce4bec73b9d4c5e1af54c4fe8797e9abc9f82192a9"
-        )
