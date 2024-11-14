@@ -43,8 +43,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MeiVideoKit",
-            url: "https://github.com/lomaverde/VerdePackage/raw/refs/heads/main/MeiVideoKit.framework.zip"
-            checksum: "3f0ae9a153e41e1bd76a0c33fef56f891b713e71c28f0e676748798e44cb75c5"
+            url: "https://github.com/lomaverde/VerdePackage/raw/refs/heads/main/XCFrameworks/MeiVideoKit.xcframework.zip"
+            checksum: "3b30c86f3f57669757dc473a0bd14f0f44e06fd0437b53808e7872028337b768"
         ),
     ]
 )
